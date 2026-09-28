@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/probeipv4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe HTML/Markdown ipv4 fragments safely for docs pipelines.",
+  "bin": {
+    "probeipv4": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/probeipv4.git"
+  },
+  "homepage": "https://theworker02.github.io/probeipv4/",
+  "keywords": [
+    "probe",
+    "ipv4",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
